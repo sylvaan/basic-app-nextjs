@@ -1,0 +1,27 @@
+.snackbar {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    border-radius: 4px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .snackbar.open {
+    display: block;
+    opacity: 1;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 8px;
+  }
